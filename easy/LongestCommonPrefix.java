@@ -1,3 +1,4 @@
+package easy;
 /*
      * 14. Longest Common Prefix Easy Share Write a function to find the longest
      * common prefix string amongst an array of strings.
@@ -20,7 +21,7 @@
 
 public class LongestCommonPrefix {
     public static void main(String[] args) {
-        String[] strs = new String[] { "1n1dguyen", "nguyen huu vu", "nguf" };
+        String[] strs = new String[] { "nguyen", "nguyen huu vu", "nguf" };
         System.out.println(longestCommonPrefix(strs));
     }
 
