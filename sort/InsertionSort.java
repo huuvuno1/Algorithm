@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.List;
 
 public class InsertionSort {
-    // 1 2 0
     public static <T extends Serializable> void sort(List<T> list, Comparator<T> comparator) {
         for (int i = 1; i < list.size(); i++) {
             int j = i - 1;
