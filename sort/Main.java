@@ -20,7 +20,7 @@ public class Main {
         InsertionSort.sort(list, (o1, o2) -> o2 - o1);
         print("Insertion Sort (max -> min)", list);
 
-        BubBleSort.sort(list, (o1, o2) -> o1 - o2);
+        BubbleSort.sort(list, (o1, o2) -> o1 - o2);
         print("Buble Sort (min -> max)", list);
     }
 
