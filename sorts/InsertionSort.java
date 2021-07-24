@@ -1,4 +1,4 @@
-package sort;
+package sorts;
 
 import java.io.Serializable;
 import java.util.List;
