@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
         ArrayList<Integer> list = new ArrayList<>();
         list.add(-110);
         list.add(-100);
