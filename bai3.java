@@ -4,8 +4,8 @@ import java.util.List;
 
 public class bai3 {
     public static void main(String[] args) {
-        int [] a = {3, 1, 5, 2, 1};
-        int [] b = {6, 2, 3, 0, 11, 3, 3};
+        int [] a = {1, 2, 3, 4};
+        int [] b = {1, 1, 2, 3, 4, 5, 5, 2};
         print(soConThieu(a, b));
     }
     static int [] soConThieu(int [] a, int [] b) {
@@ -22,12 +22,11 @@ public class bai3 {
                 B.remove(temp);
             }
         }
-        for (int i = 0; i < B.size(); i++) 
-            System.out.print(B.get(i) + "  ");
-        return new int[2];
+        return B.stream().mapToInt(i -> i).toArray();
     }
     static void print (int []a) {
-        // for (int i : a)
+        for (int i : a)
+            System.out.print(i + "  ");
     }
 
     static void convert(int []a, List<Integer> A) {
