@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// askd
 public class bai1 {
     public static void main(String[] args) {
         int [] prices = new int[] {3, 2, 5, 4, 8}; // 2 3 4 5 8
